@@ -1,6 +1,11 @@
-[![Build Status](https://travis-ci.com/RikeVoltz/Course-analysis-system.svg?branch=dev)](https://travis-ci.com/RikeVoltz/Course-analysis-system)
-[![Coverage Status](https://coveralls.io/repos/github/RikeVoltz/Course-analysis-system/badge.svg?branch=dev)](https://coveralls.io/github/RikeVoltz/Course-analysis-system?branch=dev)
-[![Maintainability](https://api.codeclimate.com/v1/badges/79d62977d246b2146eb9/maintainability)](https://codeclimate.com/github/RikeVoltz/Course-analysis-system/maintainability)
+Travis CI:[![Build Status](https://travis-ci.com/RikeVoltz/Course-analysis-system.svg?branch=dev)](https://travis-ci.com/RikeVoltz/Course-analysis-system)
+
+Coveralls:[![Coverage Status](https://coveralls.io/repos/github/RikeVoltz/Course-analysis-system/badge.svg?branch=dev)](https://coveralls.io/github/RikeVoltz/Course-analysis-system?branch=dev)
+
+Code Climate:[![Maintainability](https://api.codeclimate.com/v1/badges/79d62977d246b2146eb9/maintainability)](https://codeclimate.com/github/RikeVoltz/Course-analysis-system/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/79d62977d246b2146eb9/test_coverage)](https://codeclimate.com/github/RikeVoltz/Course-analysis-system/test_coverage)  
+
+Language: [![Language](https://img.shields.io/github/languages/top/RikeVoltz/Course-analysis-system.svg)](https://img.shields.io/github/languages/top/RikeVoltz/Course-analysis-system.svg)
 # Quality evaluation of SPbU online courses
  The purpose of this web service is to help supervisors of online courses fix flaws and errors in them, thereby improving their quality, popularizing them and making their completion more desirable to potential employers.
 ## How it works
