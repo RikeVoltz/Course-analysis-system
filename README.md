@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/RikeVoltz/Course-analysis-system.svg?branch=dev)](https://travis-ci.com/RikeVoltz/Course-analysis-system)
+[![Coverage Status](https://coveralls.io/repos/github/RikeVoltz/Course-analysis-system/badge.svg?branch=dev)](https://coveralls.io/github/RikeVoltz/Course-analysis-system?branch=dev)
 # Quality evaluation of SPbU online courses
  The purpose of this web service is to help supervisors of online courses fix flaws and errors in them, thereby improving their quality, popularizing them and making their completion more desirable to potential employers.
 ## How it works
