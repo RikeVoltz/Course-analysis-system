@@ -6,13 +6,15 @@ install:
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
   - python manage.py makemigrations
   - python manage.py migrate
   - python manage.py test mainapp
   - coverage run --source=mainapp manage.py test mainapp
-after_success: coveralls
+after_success:
+  - coveralls
+  - ./cc-test-reporter after-build -t coverage.py --exit-code $TRAVIS_TEST_RESULT
 env:
   global:
-    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
-    - CC_TEST_REPORTER_ID=099579769910f44ed345a4f0c933e6c5116ffa72f438939f72163659d8ba08b9
+    - CC_TEST_REPORTER_ID=5fb854ed732af075790ccc9d5222e385516e5294c844d85ef9db9bf8b8929081
